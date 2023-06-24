@@ -13,7 +13,7 @@ public class colegioDAO {
     ResultSet rs;
     ArrayList<colegioDTO> lista = new ArrayList<colegioDTO>();
     public void funcaoInserirAlunoBD(colegioDTO objcolegioDTO){
-        String sql = "select * from aluno";
+        String sql = "insert into aluno()";
         conn = new conexaoDAO().conectaBD();
         try {
             pstm = conn.prepareStatement(sql);
